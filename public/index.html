@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Server Connectivity</title>
+  <link href="/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
+  <link href="assets/css/loading-indicator.css" rel="stylesheet" />
+  <link href="assets/css/main.css" rel="stylesheet" />
+  <script src="https://kit.fontawesome.com/edbbdf8888.js" crossorigin="anonymous"></script>
+</head>
+
+<body class="d-flex justify-content-center">
+  <div id="loading-indicator">
+    <div class="spinner"></div>
+  </div>
+  <div class="container d-flex flex-column vh-100 justify-content-center">
+    <h4 class="mb-3 font-weight-bold text-center">
+      Server Connectivity Status<br />
+      <small>
+        <span id="connectivity-timestamp"></span>
+      </small>
+    </h4>
+    <div id="connectivity-container" class="row justify-content-center"></div>
+  </div>
+  <script src="assets/js/request.js" type="text/javascript" />
+  <script src="/bootstrap/css/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>

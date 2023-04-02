@@ -1,0 +1,5 @@
+# System extensions
+.DS_STORE
+
+# Folders
+node_modules

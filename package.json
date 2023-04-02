@@ -1,0 +1,13 @@
+{
+  "name": "connectivity",
+  "version": "1.0.0",
+  "description": "This code defines several functions to update and display the connectivity status of multiple servers. It retrieves data from a server, sorts the servers by name, and displays the connectivity status of each server in a container. The connectivity status is updated every 10 seconds. The code uses JavaScript's async/await syntax for handling asynchronous operations, and it also includes a helper function to format a date string in a desired format.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "bootstrap": "^5.2.3",
+    "express": "^4.16.1"
+  }
+}
